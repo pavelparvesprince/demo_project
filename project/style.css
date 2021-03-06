@@ -1,0 +1,407 @@
+#top-campainer-banner{
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+#amazon-logo{
+    height: 50px;
+    width: 120px;
+    margin: 5px;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 3px;
+    /*position: fixed;*/
+}
+#shopoplex-logo{
+    height: 45px;
+    width: 120px;
+    margin: 5px;
+    padding: 0;
+    /*border: 1px solid blue;*/
+    border-radius: 3px;
+    /*position: fixed;*/
+}
+
+#amazon-logo:hover{
+    border-color: white;
+}
+
+/* Style to create scroll bar in dropdown */
+.scrollable-dropdown{
+    height: auto;
+    max-height:320px;  /* Increase / Decrease value as per your need */
+    overflow-x: hidden;
+}
+
+#search-button{
+    float: right;
+    border-radius: 0 5px;
+    /*padding: 6px 10px;*/
+    /*margin-top: 8px;*/
+    /*margin-right: 16px;*/
+    /*background: #ddd;*/
+    /*font-size: 17px;*/
+    /*border: none;*/
+    /*cursor: pointer;*/
+}
+
+#bell-icon:hover{
+    border: 1px solid wheat;
+    border-radius: 3px;
+}
+#message-icon:hover{
+    border: 1px solid wheat;
+    border-radius: 3px;
+}
+#registration-icon:hover{
+    border: 1px solid wheat;
+    border-radius: 3px;
+}
+
+.nav-button-font{
+    color: #fff2ce;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 3px;
+    margin-bottom: 6px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.nav-button{
+    background-color: #232f3e;
+    padding: 0;
+    padding: 1px;
+    margin-top: 4px;
+    position: sticky;
+}
+.nav-button:hover{
+    border: 1px solid white;
+}
+
+
+/*Sidebar Menu Start*/
+
+body  {
+    background-color: #eaeded;
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 55px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: cadetblue;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 5px;
+    padding-top: 0;
+}
+
+.sidenav-overlay {
+    display: none;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu-head{
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    color: antiquewhite;
+    font-weight: bold;
+    /*font-size: 36px;*/
+    /*margin-left: 5px;*/
+}
+
+.menu-logo{
+    position: absolute;
+    top: 12px;
+    left: 40px;
+    color: antiquewhite;
+    border-radius: 50px;
+    border: 5px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+/*Sidebar Menu End*/
+
+/*carousel style start*/
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.menu-item-head{
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+/*Carousel style End*/
+
+/*Notification Modal Start*/
+
+.notification-modal{
+    display: none;
+    background-color: white;
+    height: 180px;
+    width: 400px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.popup-profile{
+    display: none;
+    background-color: white;
+    height: 320px;
+    width: 225px;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+/*Notification Modal End*/
+
+/*Flash Sell Start*/
+.flash-sell{
+    /*position: sticky;*/
+    /*height: 292px;*/
+    /*width: 176px;*/
+    /*margin-right: 2px;*/
+}
+.flash-sell:hover{
+    /*border: 1px solid red;*/
+    box-shadow: 1px 1px 1px 1px;
+}
+.responsive {
+    width: 100%;
+    /*max-width: 188px;*/
+    height: auto;
+}
+
+.hour{
+    padding: 15px;
+    margin: 12px 3px;
+    height: 35px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #ff6801;
+    font-weight: 500;
+    font-size: 16px;
+    color: #E5E4E2;
+    line-height: 9px;
+}
+
+.minute{
+    padding: 15px;
+    margin: 12px 3px;
+    height: 35px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #ff6801;
+    font-weight: 500;
+    font-size: 16px;
+    color: #E5E4E2;
+    line-height: 9px;
+}
+
+.second {
+    padding: 15px;
+    margin: 12px 3px;
+    height: 35px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #ff6801;
+    font-weight: 500;
+    font-size: 16px;
+    color: #E5E4E2;
+    line-height: 9px;
+}
+/*Flash Sell End*/
+
+/*Shop By Brand Start*/
+.anchor-text{
+    text-decoration: none;
+    color: rgba(0,0,0,0.72);
+}
+.anchor-text:hover{
+    text-decoration: none;
+    color: rgba(0,0,0,0.72);
+}
+/*Shop By Brand End*/
+
+/*New Arrivals Start*/
+.new-arrivals{
+    /*border: 1px solid blue;*/
+    height: 167px;
+    background-color: white;
+    border-radius: 10px;
+}
+.na-header{
+    text-decoration: none;
+    font: inherit;
+    line-height: 24px;
+    height: 0;
+    color: #3a3a3a;
+    padding: 10px 0 8px 25px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.na-price{
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    font-weight: 700;
+    display: -webkit-box;
+    line-height: 14px;
+    height: 14px;
+    /*-webkit-line-clamp: 1;*/
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.add-to-cart{
+    /*display: none;*/
+    visibility: hidden;
+    position: relative;
+    font-size: 15px;
+    font-weight: 700;
+    top: -80px;
+    left: 0px;
+    height: 0;
+    transition: all .05s ease-in-out;
+}
+.na-item:hover .na-sub-item{
+    opacity: 40%;
+}
+.na-item:hover .add-to-cart{
+    opacity: 1;
+}
+.na-item:hover .add-to-cart{
+    visibility: visible;
+    /*display: block;*/
+}
+/*New Arrivals End*/
+
+/*oql carousel start*/
+/*.owl-carousel img{*/
+/*    width: 100px;*/
+/*    height: 667px;*/
+/*}*/
+.owl-carousel{
+    height: 280px;
+}
+.owl-carousel .item{
+    border-radius: 5px;
+    height: 300px;
+    width: 192px;
+}
+
+.owl-carousel .product-img{
+    width: 130px;
+    height: auto;
+    margin: 20px auto 20px;
+}
+
+.owl-carousel .product-img img{
+    border-radius: 5px;
+}
+
+.owl-carousel .product-name{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 15px
+}
+.owl-carousel .product-author{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 12px
+}
+.owl-carousel .product-price{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold
+}
+.owl-carousel .nav-btn{
+    height: 47px;
+    position: absolute;
+    width: 26px;
+    cursor: pointer;
+    top: 100px !important;
+}
+.owl-item{margin-right: 0}
+
+.owl-one{
+    height: 113px;
+}
+.owl-one .item{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #3A6073;
+    height: 113px;
+    width: auto;
+}
+.owl-one .hotel_tour_text{
+    font-size: 40px;
+}
+
+.owl-two .item{
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+
+.owl-two .item:hover{
+    box-shadow: 4px 4px 10px grey;
+}
+
+/*oql carousel end*/
